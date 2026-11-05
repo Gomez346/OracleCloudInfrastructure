@@ -60,4 +60,4 @@ jobs:
         run: exit 1
 
       - name: Terraform Apply
-        run: terraform apply -auto-approve
+        run: terraform destroy -auto-approve
