@@ -66,8 +66,8 @@ variable "ic_pub_vm_A" {
   default = {
     display_name : "IC_pub_vm-A"
     assign_public_ip : true
-    availability_domain : "RjRj:US-SANJOSE-1-AD-2"
-    image_ocid : "ocid1.image.oc1.us-sanjose-1.aaaaaaaaoy3dg6f2w5edbvow2i7yymcyxlswnut5xf5ffad7us2eft6kp7oq"
+    availability_domain : "Uocm:SA-SAOPAULO-1-AD-1" # <--- CORREGIDO AQUI
+    image_ocid : "ocid1.image.oc1.sa-saopaulo-1.aaaaaaaamhtethlerkmvmf3llms33dqsqaxvunma3pskemo2cnnx675sc3uq"
     shape : {
       name          = "VM.Standard.E2.1.Micro"
       ocpus         = 1
